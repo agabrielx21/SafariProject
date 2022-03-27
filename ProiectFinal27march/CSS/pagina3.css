@@ -152,3 +152,58 @@
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     margin: 400px 0px 0px 800px;
   }
+
+  @media only screen and (max-width: 450px) {
+  
+    .nav-bar{
+     position: fixed;
+     width: 100%;
+     height: 7%;
+     display: block;
+     font-size: 1px;
+     text-align: left;
+    }
+    #logo{
+      display: none;
+    }
+    nav a{
+      top: 0;
+      left: 0;
+      font-size: 2vh;
+    }
+    .dropdown  {
+      text-align: center;
+      display: block;
+      font-size: 1.3vh;
+  } 
+    .dropbtn{
+      display: none;
+      top:0;
+      right: 0;
+    }
+    .flexbox{
+      display: block;
+    }
+    .divimagine{
+      width: 50%; 
+      margin-left: 25%;
+    }
+    .hid{
+      display: none;
+    }
+    .hid2{
+      text-align: center;
+    }
+    p{
+      text-align: center;
+    }
+
+    .divlogin{
+      width: 80%;
+    }
+
+    .divlogin:hover {
+      width: 40%;
+      transform: none;
+    }
+  }
