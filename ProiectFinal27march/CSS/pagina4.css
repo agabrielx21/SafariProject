@@ -228,7 +228,7 @@ ol li::after {
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 700px) {
   .nav-bar {
     position: fixed;
     width: 100%;
@@ -351,7 +351,7 @@ ol li::after {
   }
 }
 
-@media only screen and (min-width: 451px) and (max-width: 900px) {
+@media only screen and (min-width: 701px) and (max-width: 900px) {
   .gbox {
     grid-template-columns: 50% 50%;
     grid-template-rows: 25% 25% 25% 25%;
@@ -360,53 +360,172 @@ ol li::after {
     display: none;
   }
 
-  .item1{
-    width: 275px;
-    height: 800px;
+  .item1 {
+    width: 80%;
+    height: auto;
     grid-column: 1/2;
-    grid-row: 1/2; ;
+    grid-row: 1/2;
   }
 
-  .item2{
-    width: 275px;
-    height: 800px;
+  .item2 {
+    width: 80%;
+    height: auto;
     grid-column: 2/3;
-    grid-row: 1/2; ;
+    grid-row: 1/2;
   }
-  .item3{
-    width: 275px;
-    height: 800px;
+  .item3 {
+    width: 80%;
+    height: auto;
     grid-column: 1/2;
-    grid-row: 2/3; ;
+    grid-row: 2/3;
   }
-  .item4{
-    width: 275px;
-    height: 800px;
+  .item4 {
+    width: 80%;
+    height: auto;
     grid-column: 2/3;
-    grid-row: 2/3; ;
+    grid-row: 2/3;
   }
-  .item5{
-    width: 275px;
-    height: 900px;
+  .item5 {
+    width: 80%;
+    height: auto;
     grid-column: 1/2;
-    grid-row: 3/4; ;
+    grid-row: 3/4;
   }
-  .item6{
-    width: 275px;
-    height: 900px;
+  .item6 {
+    width: 80%;
+    height: auto;
     grid-column: 2/3;
-    grid-row: 3/4; ;
+    grid-row: 3/4;
   }
-  .item8{
-    width: 275px;
-    height: 900px;
+  .item8 {
+    width: 80%;
+    height: auto;
     grid-column: 1/2;
-    grid-row: 4/5; ;
+    grid-row: 4/5;
   }
-  .item9{
-    width: 275px;
-    height: 900px;
+  .item9 {
+    width: 80%;
+    height: auto;
     grid-column: 2/3;
-    grid-row: 4/5; ;
+    grid-row: 4/5;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 1150px) {
+  .gbox {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 25% 25%;
+  }
+  .item7 {
+    display: none;
+  }
+
+  .item1 {
+    width: 85%;
+    height: auto;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .item2 {
+    width: 85%;
+    height: auto;
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .item3 {
+    width: 85%;
+    height: auto;
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .item4 {
+    width: 85%;
+    height: auto;
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .item5 {
+    width: 85%;
+    height: auto;
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .item6 {
+    width: 85%;
+    height: auto;
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  .item8 {
+    width: 85%;
+    height: auto;
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  .item9 {
+    width: 85%;
+    height: auto;
+    grid-column: 2/3;
+    grid-row: 4/5;
+  }
+}
+
+@media only screen and (min-width: 1151px) and (max-width: 1631px) {
+  .gbox {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 25% 25%;
+  }
+  .item7 {
+    display: none;
+  }
+
+  .item1 {
+    width: 70%;
+    height: auto;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .item2 {
+    width: 70%;
+    height: auto;
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .item3 {
+    width: 70%;
+    height: auto;
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .item4 {
+    width: 70%;
+    height: auto;
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .item5 {
+    width: 70%;
+    height: auto;
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .item6 {
+    width: 70%;
+    height: auto;
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  .item8 {
+    width: 70%;
+    height: auto;
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  .item9 {
+    width: 70%;
+    height: auto;
+    grid-column: 2/3;
+    grid-row: 4/5;
   }
 }

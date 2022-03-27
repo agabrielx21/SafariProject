@@ -162,5 +162,14 @@ h1 {
   .gridbox{
     display: block;
   }
+  .headrr{
+    margin-top: 20%;
+  }
 }
+@media only screen and (min-width: 451px) and (max-width: 1000px) {
 
+  .gridbox {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+} }
